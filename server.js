@@ -86,7 +86,8 @@ app.get('/', (req, res) => {
             tasks: 'GET /api/tasks (requires auth)',
             createTask: 'POST /api/tasks (requires auth)',
             updateTask: 'PUT /api/tasks/:id (requires auth)',
-            deleteTask: 'DELETE /api/tasks/:id (requires auth)'
+            deleteTask: 'DELETE /api/tasks/:id (requires auth)',
+            Orvakai: 'Details on Orvakai'
         }
     });
 });
