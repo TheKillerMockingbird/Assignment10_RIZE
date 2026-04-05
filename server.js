@@ -65,6 +65,15 @@ app.get('/health', (req, res) => {
     });
 });
 
+app.get('/Orvakai', (req, res) => {
+    res.json({
+        Title: 'The Ashen Dragon',
+        Position: 'The Strongest Demigod, Son of Asterpoliv and Tiamat',
+        CR: 'CR 30',
+        Aegisborne: 'Mark of Rulership'
+    })
+})
+
 // Root endpoint
 app.get('/', (req, res) => {
     res.json({
